@@ -1,0 +1,93 @@
+[
+   
+            {
+                "category": "Ladoo",
+                "items": [
+                    {"id": 101, "foodName": "Boondi Ladoo", "calories": 150, "foodType": "Sweet", "carbs": 30, "price": 2.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 102, "foodName": "Rava Ladoo", "calories": 170, "foodType": "Sweet", "carbs": 35, "price": 2.75,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 103, "foodName": "Coconut Ladoo", "calories": 160, "foodType": "Sweet", "carbs": 32, "price": 2.60,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 104, "foodName": "Besan Ladoo", "calories": 180, "foodType": "Sweet", "carbs": 34, "price": 2.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Namkeen",
+                "items": [
+                    {"id": 201, "foodName": "Aloo Bhujia", "calories": 180, "foodType": "Savory Snack", "carbs": 25, "price": 3.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 202, "foodName": "Sev", "calories": 200, "foodType": "Savory Snack", "carbs": 30, "price": 3.20,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 203, "foodName": "Chana Jor Garam", "calories": 170, "foodType": "Savory Snack", "carbs": 28, "price": 2.90,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 204, "foodName": "Papdi", "calories": 220, "foodType": "Savory Snack", "carbs": 35, "price": 3.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Chips",
+                "items": [
+                    {"id": 301, "foodName": "Potato Chips", "calories": 150, "foodType": "Snack", "carbs": 15, "price": 1.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 302, "foodName": "Tortilla Chips", "calories": 140, "foodType": "Snack", "carbs": 18, "price": 1.70,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 303, "foodName": "Vegetable Chips", "calories": 160, "foodType": "Snack", "carbs": 20, "price": 1.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 304, "foodName": "Sweet Potato Chips", "calories": 170, "foodType": "Snack", "carbs": 22, "price": 2.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Pastries",
+                "items": [
+                    {"id": 401, "foodName": "Chocolate Cake", "calories": 350, "foodType": "Pastry", "carbs": 50, "price": 4.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 402, "foodName": "Fruit Tart", "calories": 290, "foodType": "Pastry", "carbs": 45, "price": 3.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 403, "foodName": "Cheesecake", "calories": 400, "foodType": "Pastry", "carbs": 55, "price": 4.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 404, "foodName": "Brownie", "calories": 300, "foodType": "Pastry", "carbs": 40, "price": 3.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Breakfast Items",
+                "items": [
+                    {"id": 501, "foodName": "Pancakes", "calories": 350, "foodType": "Breakfast", "carbs": 60, "price": 5.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 502, "foodName": "Waffles", "calories": 400, "foodType": "Breakfast", "carbs": 65, "price": 5.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 503, "foodName": "French Toast", "calories": 320, "foodType": "Breakfast", "carbs": 55, "price": 4.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 504, "foodName": "Granola Bar", "calories": 200, "foodType": "Breakfast", "carbs": 30, "price": 2.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Soups",
+                "items": [
+                    {"id": 601, "foodName": "Chicken Soup", "calories": 150, "foodType": "Soup", "carbs": 10, "price": 3.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 602, "foodName": "Minestrone", "calories": 200, "foodType": "Soup", "carbs": 25, "price": 3.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 603, "foodName": "Lentil Soup", "calories": 180, "foodType": "Soup", "carbs": 20, "price": 3.20,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 604, "foodName": "Tomato Basil Soup", "calories": 170, "foodType": "Soup", "carbs": 15, "price": 3.10,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Fruit Snacks",
+                "items": [
+                    {"id": 701, "foodName": "Dried Mango", "calories": 120, "foodType": "Snack", "carbs": 30, "price": 2.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 702, "foodName": "Apple Chips", "calories": 100, "foodType": "Snack", "carbs": 25, "price": 2.20,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 703, "foodName": "Banana Chips", "calories": 140, "foodType": "Snack", "carbs": 35, "price": 2.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 704, "foodName": "Mixed Fruit", "calories": 80, "foodType": "Snack", "carbs": 20, "price": 1.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Cookies",
+                "items": [
+                    {"id": 801, "foodName": "Chocolate Chip Cookie", "calories": 250, "foodType": "Cookie", "carbs": 35, "price": 1.75,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 802, "foodName": "Oatmeal Raisin Cookie", "calories": 200, "foodType": "Cookie", "carbs": 30, "price": 1.60,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 803, "foodName": "Peanut Butter Cookie", "calories": 270, "foodType": "Cookie", "carbs": 40, "price": 1.90,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 804, "foodName": "Sugar Cookie", "calories": 220, "foodType": "Cookie", "carbs": 30, "price": 1.70,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Muffins",
+                "items": [
+                    {"id": 901, "foodName": "Blueberry Muffin", "calories": 210, "foodType": "Muffin", "carbs": 30, "price": 2.50,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 902, "foodName": "Chocolate Muffin", "calories": 250, "foodType": "Muffin", "carbs": 35, "price": 2.80,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 903, "foodName": "Banana Muffin", "calories": 230, "foodType": "Muffin", "carbs": 32, "price": 2.60,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 904, "foodName": "Apple Cinnamon Muffin", "calories": 240, "foodType": "Muffin", "carbs": 34, "price": 2.70,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+            },
+            {
+                "category": "Cake",
+                "items": [
+                    {"id": 1001, "foodName": "Vanilla Cake", "calories": 320, "foodType": "Cake", "carbs": 50, "price": 4.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"},
+                    {"id": 1002, "foodName": "Red Velvet Cake", "calories": 350, "foodType": "Cake", "carbs": 50, "price": 4.00,"img":"https://www.mahalaxmifoods.com/uploads/Khamang-Chivdakkjj.jpg"}
+                ]
+
+    }
+]
+        

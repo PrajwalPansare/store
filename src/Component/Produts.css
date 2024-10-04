@@ -1,0 +1,79 @@
+
+.container {
+    padding: 20px;
+}
+
+
+.row {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+/* Card styling */
+.card {
+    flex: 25%;
+    max-width: 300px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    gap: 5px;
+    margin-bottom: 20px; 
+    background: #fff; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+/* Ensure image fits within the card */
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    width: 100%; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+}
+
+/* Padding for card body */
+.card-body {
+    padding: 15px;
+}
+
+/* Styling for product name */
+.topTemp {
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+/* Styling for price */
+.max {
+    color: green;
+    font-size: 1.2em;
+}
+
+/* Styling for card description */
+.card-title {
+    margin-top: 10px;
+}
+
+/* Styling for additional text */
+.card-text .day {
+    color: red;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    background-color: antiquewhite;
+    z-index: 0.5;
+    transform: scale(1.13); 
+}
+
+/*nav css*/
+.d-block {
+    height: 500px;
+}
+ 
+.border{
+    background-color: brown;
+}
+.border:hover{
+    background-color: green;
+}
