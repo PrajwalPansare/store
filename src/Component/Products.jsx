@@ -14,7 +14,7 @@ import ProductList from './ProductList';
     render(){
         return(
             <div>
-                <h1>{this.state.title}</h1>
+                <h1 className="text-3xl font-bold text-center text-orange-500 pt-5 mb-6">{this.state.title}</h1>
                 <ProductList productData={this.state.products}/>  {/* pass data from .json file to 
                 ProductList component props*/}
             </div>

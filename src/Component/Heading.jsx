@@ -1,6 +1,8 @@
 import React from "react";
 import  {Link} from 'react-router-dom';
 
+
+
 function Heading() {
     return (
         <div>
@@ -22,8 +24,12 @@ function Heading() {
                             NEEDS
                         </h2>
                         <Link to="/products"><button className="p-2  hover:bg-orange-500 rounded-lg  bg-red-500  text-white text-xl font-bold ">SHOP NOW</button></Link>
+
                     </div>
-            
+                   {/* <div className="absolute bottom-0 px-96 pt-4 ">
+                        <Changeinapi/>
+                    </div>
+                   */}
             </div>
           
         </div>

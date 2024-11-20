@@ -5,6 +5,10 @@ import Heading from './Component/Heading';
 import './index.css'
 import Footer from './Component/Footer';
 
+
+
+
+
 function App() {
   return (
     <div className="App "> 
@@ -17,4 +21,5 @@ function App() {
 }
 
 export default App;
+
 

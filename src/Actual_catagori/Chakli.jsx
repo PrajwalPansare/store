@@ -1,12 +1,97 @@
 import React, { Component } from "react";
-import Counter from "./Counter";
+//import Counter from "./Counter";
 
 // Sample hardcoded product data
 const productData = [
-    { id: 101, foodName: "Boondi Ladoo", calories: 150, foodType: "Sweet", carbs: 30, price: 2.50, img: "https://tiimg.tistatic.com/fp/1/007/762/crispy-delicious-freshly-fried-in-best-grade-oil-made-with-high-grade-ingredients-chakali-namkeen-508.jpg" },
-    { id: 102, foodName: "Rava Ladoo", calories: 170, foodType: "Sweet", carbs: 35, price: 2.75, img: "https://5.imimg.com/data5/MF/OK/MY-38313840/murukku-chakli-250x250.jpg" },
-    { id: 103, foodName: "Coconut Ladoo", calories: 160, foodType: "Sweet", carbs: 32, price: 2.60, img: "https://bgnaidusweets.com/cdn/shop/products/online-Kai-Muruku-BG-Naidu-Sweets.jpg?v=1673520824" },
-    { id: 104, foodName: "Besan Ladoo", calories: 180, foodType: "Sweet", carbs: 34, price: 2.80, img: "https://st2.depositphotos.com/3737041/5294/i/450/depositphotos_52946691-stock-photo-sweet-pretzel-on-white-background.jpg" }
+    {
+        "id": 101,
+        "category": "Chakli",
+        "foodName": "Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 200,
+        "discountedPrice": 180,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://tiimg.tistatic.com/fp/1/007/762/crispy-delicious-freshly-fried-in-best-grade-oil-made-with-high-grade-ingredients-chakali-namkeen-508.jpg"
+      },
+      {
+        "id": 102,
+        "category": "Round Chakli",
+        "foodName": "Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 180,
+        "discountedPrice": 160,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://5.imimg.com/data5/MF/OK/MY-38313840/murukku-chakli-250x250.jpg"
+      },
+      {
+        "id": 103,
+        "category": " Chakli",
+        "foodName": " Long Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 200,
+        "discountedPrice": 220,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://bgnaidusweets.com/cdn/shop/products/online-Kai-Muruku-BG-Naidu-Sweets.jpg?v=1673520824"
+      },
+      {
+        "id": 104,
+        "category": "Chakli",
+        "foodName": "Ring Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 250,
+        "discountedPrice": 230,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://bgnaidusweets.com/cdn/shop/products/online-Kai-Muruku-BG-Naidu-Sweets.jpg?v=1673520824"
+      },
+      {
+        "id": 105,
+        "category": "Chakli",
+        "foodName": "Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 200,
+        "discountedPrice": 180,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://tiimg.tistatic.com/fp/1/007/762/crispy-delicious-freshly-fried-in-best-grade-oil-made-with-high-grade-ingredients-chakali-namkeen-508.jpg"
+      },
+      {
+        "id": 106,
+        "category": "Round Chakli",
+        "foodName": "Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 180,
+        "discountedPrice": 160,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://5.imimg.com/data5/MF/OK/MY-38313840/murukku-chakli-250x250.jpg"
+      },
+      {
+        "id": 107,
+        "category": " Chakli",
+        "foodName": " Long Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 200,
+        "discountedPrice": 220,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://bgnaidusweets.com/cdn/shop/products/online-Kai-Muruku-BG-Naidu-Sweets.jpg?v=1673520824"
+      },
+      {
+        "id": 108,
+        "category": "Chakli",
+        "foodName": "Ring Chakli",
+        "calories": 150,
+        "foodType": "Sweet",
+        "price": 250,
+        "discountedPrice": 230,
+        "description": "Sweet and crispy round balls.",
+        "img": "https://bgnaidusweets.com/cdn/shop/products/online-Kai-Muruku-BG-Naidu-Sweets.jpg?v=1673520824"
+      }
+      
 ];
 
 class Chakli extends Component {
@@ -39,13 +124,13 @@ const ProductList = ({ productData }) => {
                     <h3 className="topTemp">{item.foodName}</h3>
                 </div>
                 <div className="card-body">
-                    <span className="max">Rs. {item.price.toFixed(2)}</span>
-                    <h4 className="card-title">Calories: {item.calories}</h4>
+                    <span className="max "><s>Rs. {item.discountedPrice}</s></span>
+                    <h4 className="max">Rs. {item.price}</h4>
                     <div className="card-text">
-                        <p className="day">Carbs: {item.carbs}g</p>
+                        <p className="day">{item.description}</p>
                     </div>
                     <div>
-                        <Counter />
+                    <button className="bg-yellow-400 w-32 hover:bg-red-600 rounded-lg">Add Cart</button>  
                     </div>
                 </div>
             </div>

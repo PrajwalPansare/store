@@ -12,6 +12,8 @@ import Cookies from './Actual_catagori/Cookies';
 import Ladoo from './Actual_catagori/Ladoo'
 import Modak from './Actual_catagori/Modak';
 import Namkeen from './Actual_catagori/Namkeen';
+import Login from './From/Login';
+import All from './Component/All';
 
 
 
@@ -33,7 +35,9 @@ root.render(
           <Route exact path='/Ladoo' element={<Ladoo/>}/>
           <Route exact path='/Modak' element={<Modak/>}/>
           <Route exact path='/Namkeen' element={<Namkeen/>}/>
-        
+          <Route exact path='/Login' element={<Login/>}/>
+          <Route exact path='/All' element={<All/>}/>
+          
 
       </Routes>
     </div>

@@ -7,7 +7,8 @@ const ProductList = ({ productData }) => {
         if (productData) {
             return productData.map((data) => (
                 <div key={data.category}>
-                    <h2>{data.category}</h2>
+                    <h2 className='text-center p-3 m-3 bg-yellow-300'>{data.category}</h2>
+
                     <div className="row">
                         {data.items.map((item) => (
                             <div key={item.id} className="card col-md-3">
